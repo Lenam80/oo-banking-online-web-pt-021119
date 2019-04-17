@@ -2,7 +2,7 @@ require 'pry'
 describe 'Transfer' do
 
   let(:avi) { BankAccount.new("Avi") }
-  let(:amanda) { BankAccount.new("Amanda") }
+  let(:amanda) { BankAccount.new("Amanda") }https://learn.co/tracks/online-software-engineering-part-time/object-oriented-ruby/object-relationships/oo-banking#
   let(:transfer) { Transfer.new(amanda, avi, 50) }
   let(:bad_transfer) { Transfer.new(amanda, avi, 4000) }
 
